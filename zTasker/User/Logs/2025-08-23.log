@@ -1,0 +1,149 @@
+[2025-08-23 02:56:49:528] <wWinMain> Main facade create
+[2025-08-23 02:56:49:528] <CUnify::CUnify> create unify
+[2025-08-23 02:56:49:529] <initUI> Init UI
+[2025-08-23 02:56:49:580] <initUI> OS ver>=win10, setting native dpi aware...
+[2025-08-23 02:56:49:580] <initUI> Set native dpi aware successfully!
+[2025-08-23 02:56:49:580] <initUI> Set UI LIB option
+[2025-08-23 02:56:49:581] <CDB::CDB> create db
+[2025-08-23 02:56:49:581] <CDB::SysConfig> sysini init
+[2025-08-23 02:56:49:637] <wWinMain> Main App init, appid:16584, appver:2.2.5, system:Windows 10 Pro X64 (22H2 build 19045), path:D:\Application\WTools\software\System Management\zTasker\, cmdline:
+[2025-08-23 02:56:49:647] <wWinMain> Boot alerady：1天13小时38分49秒 (2025-08-21 13:18:00)
+[2025-08-23 02:56:49:648] <wWinMain> Check only one instance and try pop last main window, appid:16584
+[2025-08-23 02:56:49:648] <wWinMain> Init Frame, popMainWnd=1
+[2025-08-23 02:56:49:649] <wWinMain> Insure ahk env
+[2025-08-23 02:56:49:804] <wWinMain> Set version
+[2025-08-23 02:56:49:846] <wWinMain> OleInitialize
+[2025-08-23 02:56:49:847] <wWinMain> AsyncTask init
+[2025-08-23 02:56:49:850] <wWinMain> Create main frame window
+[2025-08-23 02:56:50:138] <CEverTask::CEverTask> CEverTask Create
+[2025-08-23 02:56:50:138] <CEverTask::CEverTask> Total task types:242
+[2025-08-23 02:56:50:145] <CMainFrameWnd::InitWindow> CMainFrameWnd InitWindow
+[2025-08-23 02:56:50:145] <CMainFrameWnd::InitWindow> UI Proxy init
+[2025-08-23 02:56:50:145] <UIMainProxy::OnInit> on init
+[2025-08-23 02:56:50:226] <CTaskMgr::LoadTasks> Load Tasks File Begin
+[2025-08-23 02:56:50:332] <CTaskMgr::LoadTasks> Load Tasks File End
+[2025-08-23 02:56:50:333] <CTaskMgr::LoadTasks> Parse Tasks Begin
+[2025-08-23 02:56:50:345] <CTaskMgr::LoadTasks> Parse Tasks End
+[2025-08-23 02:56:50:345] <CTaskMgr::ClearTaskBackups::<lambda_a563811dbfc0307baffa65beafd671f9>::operator ()> 清理备份任务文件开始
+[2025-08-23 02:56:50:345] <CTaskListUI::InitWindow> Add Task to UI Begin
+[2025-08-23 02:56:50:346] <CDB::MemConfig> MemConfig init
+[2025-08-23 02:56:50:358] <CTaskMgr::ClearTaskBackups::<lambda_a563811dbfc0307baffa65beafd671f9>::operator ()> 清理备份任务文件结束，耗时15ms
+[2025-08-23 02:56:50:401] <CTaskListUI::InitWindow> Add Task to UI End
+[2025-08-23 02:56:50:436] <CTaskListUI::HandleMessage> System monitor on!
+[2025-08-23 02:56:50:439] <CPyWorker::run> 异步加载拼音缓存开始
+[2025-08-23 02:56:50:468] <UIMainProxy::OnInit> LoadCfg3
+[2025-08-23 02:56:50:468] <UIMainProxy::OnInit> ApplyCfg
+[2025-08-23 02:56:50:476] <Util::System::LogonStartScheduler> ERROR:
+ Task has been deleted. 
+[2025-08-23 02:56:50:476] <UIMainProxy::setAutoRun> 当前用户名: clovme
+[2025-08-23 02:56:50:476] <UIMainProxy::setAutoRun> LogonSchedulerName:zTaskerAutoRun_clovme
+[2025-08-23 02:56:50:477] <Util::System::LogonStartScheduler> ERROR:
+ Task has been deleted. 
+[2025-08-23 02:56:50:485] <UIMainProxy::OnInit> LoadStat
+[2025-08-23 02:56:50:486] <CPinyinManager::LoadCache> ERROR:Open pydb failed:IO error: D:\Application\WTools\software\System Management\zTasker\User\pinyin.db/MANIFEST-000017: 文件名、目录名或卷标语法不正确。
+
+[2025-08-23 02:56:50:486] <CPyWorker::run> 异步加载拼音缓存结束，耗时63ms
+[2025-08-23 02:56:50:486] <CPyWorker::run> 加载过期拼音缓存开始
+[2025-08-23 02:56:50:606] <CPyWorker::run> 加载过期拼音缓存结束，耗时109ms
+[2025-08-23 02:56:50:607] <CPyWorker::run> 保存拼音缓存开始
+[2025-08-23 02:56:50:607] <CPyWorker::run> 保存拼音缓存结束，耗时0ms
+[2025-08-23 02:56:50:697] <wWinMain> Main App Setp 4, show main wnd and tray
+[2025-08-23 02:56:50:697] <wWinMain> Set mute mode=0
+[2025-08-23 02:56:50:716] <wWinMain> Main App enter msg loop
+[2025-08-23 02:56:50:716] <CTaskMgr::ResetNextRunTimes> ResetNextRunTimes
+[2025-08-23 02:56:50:716] 循环型任务已过期，重置下次运行时间 <简单任务:显示磁盘可用空间, 序号:0, ID:9532>
+[2025-08-23 02:56:50:958] 循环型任务已过期，重置下次运行时间 <简单任务:隐藏窗口到托盘, 序号:0, ID:2017>
+[2025-08-23 02:56:50:978] <CTaskData::SaveFile> Save开始
+[2025-08-23 02:56:51:096] <CTaskData::SaveFile> Save结束，耗时125ms
+[2025-08-23 02:56:51:096] <CTaskMgr::SaveTasks> 自动备份任务文件
+[2025-08-23 02:56:51:109] <CTaskListUI::StartTaskTimer> Set TaskTimerProc
+[2025-08-23 02:56:51:111] <CMainFrameWnd::OnShow> 显示器DPI：96
+[2025-08-23 02:56:56:688] <CStat::SendStat::<lambda_8031342f89b83b8a6dde6464dae806b1>::operator ()> Client stat result: 0
+[2025-08-23 02:57:17:722] <CTaskListUI::HandleMessage> System clipborad changed
+[2025-08-23 02:57:50:607] <CTaskListUI::StopTaskTimer> Stop TaskTimerProc
+[2025-08-23 02:58:22:213] <CTaskListUI::StopTaskTimer> Stop TaskTimerProc
+[2025-08-23 02:58:58:283] <wWinMain> Main facade create
+[2025-08-23 02:58:58:283] <CUnify::CUnify> create unify
+[2025-08-23 02:58:58:283] <initUI> Init UI
+[2025-08-23 02:58:58:284] <initUI> OS ver>=win10, setting native dpi aware...
+[2025-08-23 02:58:58:284] <initUI> Set native dpi aware successfully!
+[2025-08-23 02:58:58:284] <initUI> Set UI LIB option
+[2025-08-23 02:58:58:284] <CDB::CDB> create db
+[2025-08-23 02:58:58:285] <CDB::SysConfig> sysini init
+[2025-08-23 02:58:58:289] <wWinMain> Main App init, appid:16280, appver:2.2.5, system:Windows 10 Pro X64 (22H2 build 19045), path:D:\Application\WTools\software\System Management\zTasker\, cmdline:
+[2025-08-23 02:58:58:289] <wWinMain> Boot alerady：1天13小时40分58秒 (2025-08-21 13:18:00)
+[2025-08-23 02:58:58:289] <wWinMain> Check only one instance and try pop last main window, appid:16280
+[2025-08-23 02:58:58:289] <wWinMain> Init Frame, popMainWnd=1
+[2025-08-23 02:58:58:289] <wWinMain> Insure ahk env
+[2025-08-23 02:58:58:290] <wWinMain> Set version
+[2025-08-23 02:58:58:290] <wWinMain> OleInitialize
+[2025-08-23 02:58:58:291] <wWinMain> AsyncTask init
+[2025-08-23 02:58:58:294] <wWinMain> Create main frame window
+[2025-08-23 02:58:58:422] <CEverTask::CEverTask> CEverTask Create
+[2025-08-23 02:58:58:423] <CEverTask::CEverTask> Total task types:242
+[2025-08-23 02:58:58:425] <CMainFrameWnd::InitWindow> CMainFrameWnd InitWindow
+[2025-08-23 02:58:58:425] <CMainFrameWnd::InitWindow> UI Proxy init
+[2025-08-23 02:58:58:425] <UIMainProxy::OnInit> on init
+[2025-08-23 02:58:58:436] <CTaskMgr::LoadTasks> Load Tasks File Begin
+[2025-08-23 02:58:58:437] <CTaskMgr::LoadTasks> Load Tasks File End
+[2025-08-23 02:58:58:437] <CTaskMgr::LoadTasks> Parse Tasks Begin
+[2025-08-23 02:58:58:442] <CTaskMgr::LoadTasks> Parse Tasks End
+[2025-08-23 02:58:58:442] <CTaskListUI::InitWindow> Add Task to UI Begin
+[2025-08-23 02:58:58:442] <CTaskMgr::ClearTaskBackups::<lambda_a563811dbfc0307baffa65beafd671f9>::operator ()> 清理备份任务文件开始
+[2025-08-23 02:58:58:442] <CTaskMgr::ClearTaskBackups::<lambda_a563811dbfc0307baffa65beafd671f9>::operator ()> 清理备份任务文件结束，耗时0ms
+[2025-08-23 02:58:58:444] <CDB::MemConfig> MemConfig init
+[2025-08-23 02:58:58:466] <CTaskListUI::InitWindow> Add Task to UI End
+[2025-08-23 02:58:58:470] <CTaskListUI::HandleMessage> System monitor on!
+[2025-08-23 02:58:58:473] <CPyWorker::run> 异步加载拼音缓存开始
+[2025-08-23 02:58:58:473] <UIMainProxy::OnInit> LoadCfg22
+[2025-08-23 02:58:58:473] <UIMainProxy::OnInit> ApplyCfg
+[2025-08-23 02:58:58:480] <Util::System::LogonStartScheduler> ERROR:
+ Task has been deleted. 
+[2025-08-23 02:58:58:481] <UIMainProxy::setAutoRun> 当前用户名: clovme
+[2025-08-23 02:58:58:481] <UIMainProxy::setAutoRun> LogonSchedulerName:zTaskerAutoRun_clovme
+[2025-08-23 02:58:58:481] <Util::System::LogonStartScheduler> ERROR:
+ Task has been deleted. 
+[2025-08-23 02:58:58:485] <UIMainProxy::OnInit> LoadStat
+[2025-08-23 02:58:58:499] <wWinMain> Main App Setp 4, show main wnd and tray
+[2025-08-23 02:58:58:499] <wWinMain> Set mute mode=0
+[2025-08-23 02:58:58:523] <wWinMain> Main App enter msg loop
+[2025-08-23 02:58:58:549] <CPinyinManager::LoadCache> ERROR:Open pydb failed:IO error: D:\Application\WTools\software\System Management\zTasker\User\pinyin.db/MANIFEST-000017: 文件名、目录名或卷标语法不正确。
+
+[2025-08-23 02:58:58:549] <CPyWorker::run> 异步加载拼音缓存结束，耗时63ms
+[2025-08-23 02:58:58:549] <CPyWorker::run> 加载过期拼音缓存开始
+[2025-08-23 02:58:58:640] <CMainFrameWnd::OnShow> 显示器DPI：96
+[2025-08-23 02:58:58:662] <CPyWorker::run> 加载过期拼音缓存结束，耗时125ms
+[2025-08-23 02:58:58:663] <CPyWorker::run> 保存拼音缓存开始
+[2025-08-23 02:58:58:663] <CPyWorker::run> 保存拼音缓存结束，耗时0ms
+[2025-08-23 02:58:58:663] <CTaskMgr::ResetNextRunTimes> ResetNextRunTimes
+[2025-08-23 02:58:58:663] <CTaskListUI::StartTaskTimer> Set TaskTimerProc
+[2025-08-23 02:59:04:415] <CStat::SendStat::<lambda_8031342f89b83b8a6dde6464dae806b1>::operator ()> Client stat result: 0
+[2025-08-23 02:59:11:577] <CTaskEditWnd::InitControl> TaskEdit InitControl begin
+[2025-08-23 02:59:11:651] <CTaskEditWnd::initUISounds> TaskEdit Get TTS
+[2025-08-23 02:59:11:678] <CTaskEditWnd::initUISounds> TaskEdit Get TTS tokens size:2
+[2025-08-23 02:59:11:678] <CTaskEditWnd::selectTaskPage> Edit to Show subctrl is 弹窗提醒
+[2025-08-23 02:59:11:684] <CTaskEditWnd::initUISch> TaskEdit Init battery detecter
+[2025-08-23 02:59:11:685] <CTaskEditWnd::InitControl> TaskEdit InitControl end
+[2025-08-23 02:59:54:959] <CTaskEditWnd::initUITask> TaskEdit Init monitor detecter
+[2025-08-23 02:59:55:024] <CTaskEditWnd::selectTaskPage> Edit to Show subctrl is 关闭|打开显示器电源
+[2025-08-23 03:01:07:884] <CTaskEditWnd::SaveTasker> 保存任务开始
+[2025-08-23 03:01:07:900] <CTaskEditWnd::saveUIHotkeyPage> Save hotkeys
+[2025-08-23 03:01:07:900] <CTaskEditWnd::saveUIHotkeyPage> Save hotkeys done
+[2025-08-23 03:01:07:900] <CTaskEditWnd::SaveTasker> 保存任务结束，耗时16ms
+[2025-08-23 03:01:07:927] <CTaskData::SaveFile> Save开始
+[2025-08-23 03:01:07:929] <CTaskData::SaveFile> Save结束，耗时0ms
+[2025-08-23 03:01:07:929] <CTaskMgr::SaveTasks> 自动备份任务文件
+[2025-08-23 03:01:07:955] <CTaskEditWnd::OnFinalMessage> delete self
+[2025-08-23 03:01:07:955] <CTaskEditWnd::~CTaskEditWnd> Try _CloseTemTasker
+[2025-08-23 03:01:07:955] <CTaskEditWnd::~CTaskEditWnd> clear time ctrls
+[2025-08-23 03:01:30:405] 运行 <简单任务:关闭显示器, 序号:23, ID:711-W90YHPIYWP>
+[2025-08-23 03:01:30:408] <setMonitorPower> ERROR:setMonitorPower Succeed!
+[2025-08-23 03:01:30:409] 简单任务执行完毕！ <简单任务:关闭显示器, 序号:23, ID:711-W90YHPIYWP>
+[2025-08-23 03:01:30:418] <UITrayProxy::OnEvent> RunningTaskCount==0， Stop tray animaiton...
+[2025-08-23 03:01:36:624] <CTaskData::SaveFile> Save开始
+[2025-08-23 03:01:36:626] <CTaskData::SaveFile> Save结束，耗时0ms
+[2025-08-23 03:01:38:374] <CTaskData::SaveFile> Save开始
+[2025-08-23 03:01:38:376] <CTaskData::SaveFile> Save结束，耗时0ms
+[2025-08-23 03:02:16:899] <CTaskData::SaveFile> Save开始
+[2025-08-23 03:02:16:900] <CTaskData::SaveFile> Save结束，耗时0ms
+[2025-08-23 03:02:21:021] <CTaskListUI::StopTaskTimer> Stop TaskTimerProc

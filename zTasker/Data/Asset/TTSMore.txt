@@ -1,0 +1,9 @@
+启用更多自然讲述人方法：
+1. 打开网页：https://github.com/gexgd0419/NaturalVoiceSAPIAdapter/releases，下载NaturalVoiceSAPIAdapter_???_x86_x64.zip
+
+2. 解压到某个固定目录，注意是固定目录，此目录不能删除！！！
+
+3. 运行解压目录里的Installer.exe，选择安装32位，按照提示即可启用更多自然讲述人
+
+启用Edge在线语音方法，发音时需要互联网在线，稍微有延迟
+1、2步骤同上，第3步勾选Installer程序里的“启用Microsoft Edge在线语音”即可(默认已经勾选)
