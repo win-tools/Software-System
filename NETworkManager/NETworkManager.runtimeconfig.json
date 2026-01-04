@@ -10,7 +10,7 @@
       "CSWINRT_USE_WINDOWS_UI_XAML_PROJECTIONS": false,
       "NetBeautyLibsDir": ".;./lib;./lib/runtimes/win-x64/native",
       "NetBeautySharedRuntimeMode": "no",
-      "STARTUP_HOOKS": "nbloader",
+      "STARTUP_HOOKS": "libloader",
       "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,
       "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true
     },
