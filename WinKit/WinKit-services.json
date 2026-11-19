@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "services": [
+    {
+      "id": "svc-mw6mo18i-dktzs",
+      "name": "bililive-windows-amd64",
+      "displayName": "直播录制工具",
+      "exePath": "D:\\application\\WTools\\Service\\bililive\\bililive-windows-amd64.exe",
+      "args": "--config=D:\\application\\WTools\\data\\bililive\\config.yml",
+      "workingDir": "D:\\application\\WTools\\Service\\bililive",
+      "autostart": false,
+      "restartOnCrash": true,
+      "restartDelaySecs": 5,
+      "logFile": "D:\\application\\WTools\\Service\\bililive\\bililive-windows-amd64.log",
+      "envOverride": {
+        "HOMEDRIVE": "C:",
+        "TEMP": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp",
+        "SystemDrive": "C:",
+        "USERNAME": "晴天雨露",
+        "SystemRoot": "C:\\Windows",
+        "HOMEPATH": "\\Users\\Administrator",
+        "ProgramFiles(x86)": "C:\\Program Files (x86)",
+        "USERPROFILE": "C:\\Users\\Administrator",
+        "PROCESSOR_ARCHITECTURE": "AMD64",
+        "LOCALAPPDATA": "C:\\Users\\Administrator\\AppData\\Local",
+        "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+        "CommonProgramFiles": "C:\\Program Files\\Common Files",
+        "NUMBER_OF_PROCESSORS": "8",
+        "APPDATA": "C:\\Users\\Administrator\\AppData\\Roaming",
+        "ProgramFiles": "C:\\Program Files",
+        "TMP": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp",
+        "USERDOMAIN": "CLOVME",
+        "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+        "ProgramData": "C:\\ProgramData",
+        "OS": "Windows_NT"
+      }
+    },
+    {
+      "id": "svc-mw7np33l-zugze",
+      "name": "VerseAI",
+      "displayName": "VerseAI",
+      "exePath": "D:\\application\\VerseAI\\VerseAI.exe",
+      "args": "",
+      "workingDir": "D:\\application\\VerseAI",
+      "autostart": true,
+      "restartOnCrash": true,
+      "restartDelaySecs": 5,
+      "logFile": "D:\\application\\VerseAI\\VerseAI.log",
+      "envOverride": {
+        "ProgramFiles(x86)": "C:\\Program Files (x86)",
+        "USERDOMAIN": "CLOVME",
+        "APPDATA": "C:\\Users\\Administrator\\AppData\\Roaming",
+        "USERPROFILE": "C:\\Users\\Administrator",
+        "SystemRoot": "C:\\Windows",
+        "NUMBER_OF_PROCESSORS": "8",
+        "CommonProgramFiles": "C:\\Program Files\\Common Files",
+        "ProgramData": "C:\\ProgramData",
+        "TMP": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp",
+        "TEMP": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp",
+        "USERNAME": "晴天雨露",
+        "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+        "OS": "Windows_NT",
+        "LOCALAPPDATA": "C:\\Users\\Administrator\\AppData\\Local",
+        "SystemDrive": "C:",
+        "HOMEDRIVE": "C:",
+        "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+        "HOMEPATH": "\\Users\\Administrator",
+        "PROCESSOR_ARCHITECTURE": "AMD64",
+        "ProgramFiles": "C:\\Program Files"
+      }
+    }
+  ]
+}
